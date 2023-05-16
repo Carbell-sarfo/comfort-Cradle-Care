@@ -1,0 +1,27 @@
+
+// ========== Container =============
+.container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 2580px;
+    height: 100%;
+}
+.wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#hero {
+    padding-top: 12rem;
+}
+
+
+@media (min-width: 768px) {
+    .wrapper {
+        padding-right: 64px;
+        padding-left: 64px;
+    }
+}
+
+
